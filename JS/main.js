@@ -64,12 +64,9 @@ function buscarVariedad(codigo) {
 
 function terminarCompra() {
     const bag = new Compra (carrito)
-    alert(' El Total de su compra es: $ ', bag.sumarPrecios())
-    console.log (' El Total de su compra es: $ ', bag.sumarPrecios())
-}
-function finalizarCompra() {
-    const shopping = new Compra(carrito)
-    console.log(`El costo total de su compra es de $ ${shopping.obtenerSubtotal()}. Muchas gracias por tu compra!`)
+    const total = bag.sumarPrecios()
+    alert(' El Total de su compra es: $ '+ total)
+    console.log (' El Total de su compra es: $ '+ total )
 }
 
 function borrarProducto (){
@@ -119,3 +116,5 @@ function agregarProducto(){
         }
     }
 }
+
+saludar()
