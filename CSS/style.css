@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 60em;
+  width: 100%;
+  padding: 20px;
+  background-color: #F2D194;
+}
+main h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #F2F2F2;
+  text-align: center;
+  text-shadow: 0 0 20px #0D0D0D;
+  padding: 7px 20px;
+  margin-top: 10px;
+  background-color: #F2D194;
+}
+main h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+  text-align: center;
+  color: #73341D;
+  text-shadow: 0 0 9px #D98F4E;
+  padding: 20px;
+  background-color: #F2D194;
+  text-transform: capitalize;
+}
+main .section {
+  padding: 20px;
+}
+main .section li {
+  color: #73341D;
+  font-size: 1.5rem;
+  padding: 7px;
+  margin-left: 15px;
+  text-transform: capitalize;
+}/*# sourceMappingURL=style.css.map */
